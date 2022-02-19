@@ -6,6 +6,10 @@ Project to search and show gifs using the Giphy API.
 
 In the project directory, you can run:
 
+### `npm i`
+
+To install all dependencies.
+
 ### `npm start`
 
 Runs the app in the development mode.\
