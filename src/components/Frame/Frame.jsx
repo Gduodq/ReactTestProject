@@ -7,8 +7,8 @@ const useStyles = makeStyles((theme) => ({
   frame: (props) => ({
     margin: props.margin,
     padding: props.padding,
-    backgroundColor: theme.mpui[props.backgroundColor],
-    border: props.borderColor ? `1px solid ${theme.mpui[props.borderColor]}` : null,
+    backgroundColor: props.backgroundColor,
+    border: props.borderColor,
     borderRadius: props.borderRadius,
     display: props.flex ? 'flex' : null,
     flexDirection: props.column ? 'column' : null,
@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
     boxSizing: props.borderBox ? 'border-box' : null,
     overflow: props.overflow,
     gap: props.gap,
-    color: theme.mpui[props.color],
+    color: props.color,
   }),
   clickable: {
     '&:hover': {

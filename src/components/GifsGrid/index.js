@@ -1,0 +1,1 @@
+export { GifsGrid } from './GifsGrid'
